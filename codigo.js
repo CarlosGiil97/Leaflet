@@ -17,4 +17,4 @@ var LeafIcon = L.Icon.extend({
 
 	var marcador = new LeafIcon({iconUrl: 'cerveza.png'}); /*creamo la variable marcador que es un nuevo objeto de LeafIcon */
 
-	L.marker([37.144229, -3.622781], {icon: marcador}).addTo(map); /* Añade el marcador con nombre "icono al mapa,coon las coordenadas que queremos*/
+	L.marker([37.144229, -3.622781], {icon: marcador}).bindPopup('Etiqueta de prueba').addTo(map); /* Añade el marcador con nombre "icono al mapa,coon las coordenadas que queremos*/
