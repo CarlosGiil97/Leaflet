@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple Leaflet Map</title>
+    <title>Mapa Armilla</title>
     <meta charset="utf-8" />
     <link 
         rel="stylesheet" 
@@ -15,16 +15,8 @@
         src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js">
     </script>
 
-    <script>
-        var map = L.map('map', { zoomControl:false }).setView([37.144229, -3.622781], 16);
-	map.dragging.disable();
-        mapLink = 
-            '<a href="http://openstreetmap.org">OpenStreetMap</a>';
-        L.tileLayer(
-            'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; ' + mapLink + ' Contributors',
-            maxZoom: 18,
-            }).addTo(map);
+    <script
+	src="codigo.js">
     </script>
 </body>
 </html>
