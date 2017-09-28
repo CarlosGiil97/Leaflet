@@ -1,4 +1,4 @@
-var map = L.map('map', { zoomControl:false }).setView([37.144229, -3.622781], 16);
+var map = L.map('map', { zoomControl:false }).setView([37.144229, -3.622781], 14);
 map.dragging.disable();
 mapLink = 
         '<a href="http://openstreetmap.org">OpenStreetMap</a>';
@@ -15,6 +15,6 @@ var LeafIcon = L.Icon.extend({
 		}
 	});
 
-	var marcador = new LeafIcon({iconUrl: ''}); /*creamo la variable marcador que es un nuevo objeto de LeafIcon */
+	var marcador = new LeafIcon({iconUrl: 'cerveza.png'}); /*creamo la variable marcador que es un nuevo objeto de LeafIcon */
 
 	L.marker([37.144229, -3.622781], {icon: marcador}).addTo(map); /* Añade el marcador con nombre "icono al mapa,coon las coordenadas que queremos*/
