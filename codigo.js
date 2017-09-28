@@ -9,7 +9,7 @@ L.tileLayer(
         }).addTo(map);
 var LeafIcon = L.Icon.extend({
 		options: {
-			iconSize:     [20, 30],/*Estas son las propedades del icono*/
+			iconSize:     [20, 20],/*Estas son las propedades del icono*/
 			iconAnchor:   [22, 94],
 			popupAnchor:  [-3, -76]
 		}
@@ -17,5 +17,5 @@ var LeafIcon = L.Icon.extend({
 
 	var marcador = new LeafIcon({iconUrl: 'imagenes/cerveza.png'}); /*creamo la variable marcador que es un nuevo objeto de LeafIcon */
 
-	L.marker([37.1432893, -3.6301321], {icon: marcador}).bindPopup('<p>Cerveceria jamoneria el Asadero</p><p align="center"><img align="center" height="50px" width="50px" src="imagenes/secadero.jpg"</p>').addTo(map); /* Añade el marcador con nombre "icono al mapa,coon las coordenadas que queremos*/
-
+	L.marker([37.1432893, -3.6301321], {icon: marcador}).bindPopup('<p>Cerveceria jamoneria el Asadero</p><p align="center"><img align="center" height="70px" width="70px" src="imagenes/secadero.jpg"</p>').addTo(map); /* Añade el marcador con nombre "icono al mapa,coon las coordenadas que queremos*/
+	L.marker([37.144958,-3.626471], {icon: marcador}).bindPopup('<p>Cerveceria jamoneria el Asadero</p><p align="center"><img align="center" height="70px" width="70px" src="imagenes/45.png"</p>').addTo(map); 
