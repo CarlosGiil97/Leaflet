@@ -10,15 +10,15 @@ L.tileLayer(
         }).addTo(map);
 
 var restaurante = L.icon({
-    iconUrl: 'restaurante.png',
+    iconUrl: 'imagenes/restaurante.png',
     iconSize:     [20, 20], // size of the icon
     iconAnchor:   [20, 20], // point of the icon which will correspond to marker's location
 });
 
 
-L.marker([37.141217, -3.627584], {icon: restaurante}).bindPopup('Pizzeria Voy Volando (4,2)').addTo(map);
-L.marker([37.140002, -3.628696], {icon: restaurante}).bindPopup('Jinou Restaurante (4,0)').addTo(map);
-L.marker([37.141878, -3.619252], {icon: restaurante}).bindPopup('La Abuela Pepa (4,2)').addTo(map);
-L.marker([37.142550, -3.620231], {icon: restaurante}).bindPopup('Bar los Pepes (3,9)').addTo(map);
-L.marker([37.139192, -3.623105], {icon: restaurante}).bindPopup('Asadero Don Pollo (4,2)').addTo(map);
+L.marker([37.141217, -3.627584], {icon: restaurante}).bindPopup("Pizzeria Voy Volando<img width='50%' src='imagenes/voy.jpg'></img><br/>(4,2)").addTo(map);
+L.marker([37.140002, -3.628696], {icon: restaurante}).bindPopup("Jinou Restaurante <img width='50%' src='imagenes/jinou.jpg'></img><br/>(4,0)").addTo(map);
+L.marker([37.141878, -3.619252], {icon: restaurante}).bindPopup("La Abuela Pepa <img width='50%' src='imagenes/abuela.jpg'></img><br/>(4,2)").addTo(map);
+L.marker([37.142550, -3.620231], {icon: restaurante}).bindPopup("Bar los Pepes <img width='50%' src='imagenes/pepes.jpg'></img><br/>(3,9)").addTo(map);
+L.marker([37.139192, -3.623105], {icon: restaurante}).bindPopup("Asadero Don Pollo <img width='50%' src='imagenes/don.jpg'></img><br/>(4,2)").addTo(map);
 
