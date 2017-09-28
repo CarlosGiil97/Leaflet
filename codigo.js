@@ -16,9 +16,8 @@ var restaurante = L.icon({
 });
 
 
-L.marker([37.141217, -3.627584], {icon: restaurante}).bindPopup("Pizzeria Voy Volando<img width='50%' src='imagenes/voy.jpg'></img><br/>(4,2)").addTo(map);
-L.marker([37.140002, -3.628696], {icon: restaurante}).bindPopup("Jinou Restaurante <img width='50%' src='imagenes/jinou.jpg'></img><br/>(4,0)").addTo(map);
-L.marker([37.141878, -3.619252], {icon: restaurante}).bindPopup("La Abuela Pepa <img width='50%' src='imagenes/abuela.jpg'></img><br/>(4,2)").addTo(map);
-L.marker([37.142550, -3.620231], {icon: restaurante}).bindPopup("Bar los Pepes <img width='50%' src='imagenes/pepes.jpg'></img><br/>(3,9)").addTo(map);
-L.marker([37.139192, -3.623105], {icon: restaurante}).bindPopup("Asadero Don Pollo <img width='50%' src='imagenes/don.jpg'></img><br/>(4,2)").addTo(map);
-
+L.marker([37.141217, -3.627584], {icon: restaurante}).bindPopup("Pizzeria Voy Volando<img width='50%' src='imagenes/voy.jpg'></img><br/>15€<br/>(4,2)").addTo(map);
+L.marker([37.140002, -3.628696], {icon: restaurante}).bindPopup("Jinou Restaurante <img width='50%' src='imagenes/jinou.jpg'></img><br/>15€<br/>(4,0)").addTo(map);
+L.marker([37.141878, -3.619252], {icon: restaurante}).bindPopup("La Abuela Pepa <img width='50%' src='imagenes/abuela.jpg'></img><br/>10-50€<br/>(4,2)").addTo(map);
+L.marker([37.142550, -3.620231], {icon: restaurante}).bindPopup("Bar los Pepes <img width='50%' src='imagenes/pepes.jpg'></img><br/><br/>(3,9)").addTo(map);
+L.marker([37.139192, -3.623105], {icon: restaurante}).bindPopup("Asadero Don Pollo <img width='50%' src='imagenes/don.jpg'></img><br/>8€<br/>(4,2)").addTo(map);
