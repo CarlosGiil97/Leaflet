@@ -21,3 +21,4 @@ var LeafIcon = L.Icon.extend({
 	L.marker([37.144958,-3.626471], {icon: marcador}).bindPopup('<p>Bar Boulevard 45</p><p align="center"><img align="center" height="70px" width="70px" src="imagenes/45.png"</p>').addTo(map); 
 	L.marker([37.1438791,-3.6233805], {icon: marcador}).bindPopup('<p>Meson Bar La Bota</p><p align="center"><img align="center" height="70px" width="70px" src="imagenes/mesonbota.jpg"</p>').addTo(map);
 	L.marker([37.137147,-3.628093], {icon: marcador}).bindPopup('<p>Bar Alameda</p><p align="center"><img align="center" height="70px" width="70px" src="imagenes/quinto.jpg"</p>').addTo(map);
+	L.marker([37.1432594,-3.6265424], {icon: marcador}).bindPopup('<p>Bar El Rubio</p><p align="center"><img align="center" height="70px" width="70px" src="imagenes/elrubio.jpg"</p>').addTo(map);
