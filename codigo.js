@@ -15,6 +15,7 @@ var LeafIcon = L.Icon.extend({
 		}
 	});
 
-	var marcador = new LeafIcon({iconUrl: 'cerveza.png'}); /*creamo la variable marcador que es un nuevo objeto de LeafIcon */
+	var marcador = new LeafIcon({iconUrl: 'imagenes/cerveza.png'}); /*creamo la variable marcador que es un nuevo objeto de LeafIcon */
 
-	L.marker([37.144229, -3.622781], {icon: marcador}).bindPopup('Etiqueta de prueba').addTo(map); /* Añade el marcador con nombre "icono al mapa,coon las coordenadas que queremos*/
+	L.marker([37.1432893, -3.6301321], {icon: marcador}).bindPopup('<p>Cerveceria jamoneria el Asadero</p><p align="center"><img align="center" height="50px" width="50px" src="imagenes/secadero.jpg"</p>').addTo(map); /* Añade el marcador con nombre "icono al mapa,coon las coordenadas que queremos*/
+
