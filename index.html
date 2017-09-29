@@ -7,8 +7,19 @@
         rel="stylesheet" 
         href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css"
     />
+    <!-- Nueva capa -->
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+    <!-- 	    -->
 </head>
 <body>
+<!-- Los botones que llaman a las funciones del tipo de mapa-->
+
+<input type="button" onclick="OtroMapa()" value="Mapa especial"/>
+<input type="button" onclick="MapaPrincipal()" value="Mapa principal"/>
+
+<!--                  					    -->
+
     <div id="map" style="width: 600px; height: 400px"></div>
 
     <script
