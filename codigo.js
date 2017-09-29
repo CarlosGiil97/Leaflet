@@ -1,6 +1,7 @@
 var map = L.map('map', { zoomControl:false }).setView([37.144229, -3.622781], 15);
 map.dragging.disable();
 map.scrollWheelZoom.disable();
+map.doubleClickZoom.disable();
 mapLink =
         '<a href="http://openstreetmap.org">OpenStreetMap</a>';
 L.tileLayer(

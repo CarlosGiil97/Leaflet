@@ -1,0 +1,10 @@
+.centrar
+	{
+		position: absolute;
+		top:50%;
+		left:50%;
+		width:600px;
+		margin-left:-300px;
+		height:400px;
+		margin-top:-200px;
+		padding:5px;
