@@ -3,15 +3,37 @@
 <head>
     <title>Mapa Armilla</title>
     <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" type="image/x-icon" href="http://leafletjs.com/examples/layers-control/docs/images/favicon.ico">
+
     <link 
         rel="stylesheet" 
         href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css"
     />
+    <link
+	rel="stylesheet"
+	href="estilos.css"/>
+    <!-- Nueva capa -->
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+    <!-- 	    -->
 </head>
 <body>
-	<h1 align="center"> MAPA DE ARMILLA </h1>
-    <div id="map" position="center" style="width: 600px; height: 400px"></div>
+<!-- Caja que abarca todo el código (para centrar los datos)-->
+<div style="margin-left:15%;" style="margin-right:15%;">
 
+<!-- Los botones que llaman a las funciones del tipo de mapa-->
+<h1 style="margin-left:220px;">Armilla</h1>
+
+<div style="margin-left:170px;">
+	<input type="button" onclick="OtroMapa()" value="Pintura"/>
+	<input type="button" onclick="MapaPrincipal()" value="Mapa principal"/>
+</div><p/>
+
+<!--                  					    -->
+    <div id="map" class="centrar" align="center"></div>
+</div>
     <script
         src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js">
     </script>
